@@ -1,4 +1,4 @@
-from enum import auto
+
 import tkinter
 import random as r
 
