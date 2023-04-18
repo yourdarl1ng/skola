@@ -1,0 +1,17 @@
+import tkinter
+
+canvas_objekt = tkinter.Canvas()
+
+canvas_object.create_circle(x1, y1, x2, y2, fill=str(farba), width=int(cislo))
+
+canvas_objekt.create_text(x, y, text=str(text))
+
+canvas_objekt.create_oval(x1, y1, x2, y2, fill=str(text))
+
+canvas_objekt.create_rectangle(x1, y1, x2, y2, fill=str(text))
+
+canvas_objekt.create_line(x1, y1, x2, y2, width=width, fill=fill)
+#funkcia ktora nabinduje lave tlacitko(asi, mozno prave) a spusti funkciu ked sa stali
+canvas_objekt.bind('<Button-1>', funkcia)
+#to iste len na klavesnicu
+canvas.bind_all('s', funkcia)
