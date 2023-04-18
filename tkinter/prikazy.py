@@ -14,4 +14,4 @@ canvas_objekt.create_line(x1, y1, x2, y2, width=width, fill=fill)
 #funkcia ktora nabinduje lave tlacitko(asi, mozno prave) a spusti funkciu ked sa stali
 canvas_objekt.bind('<Button-1>', funkcia)
 #to iste len na klavesnicu
-canvas.bind_all('s', funkcia)
+canvas_objekt.bind_all('s', funkcia)
