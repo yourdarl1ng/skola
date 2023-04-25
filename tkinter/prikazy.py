@@ -17,7 +17,7 @@ canvas_objekt.bind('<Button-1>', funkcia)
 canvas_objekt.bind_all('s', funkcia)
 
 #generuje interval od 0 po 4,
- prejde nim a vypise cislo na ktorom je
+#prejde nim a vypise cislo na ktorom je
 for slovo in range(5):
     
     print(slovo)
