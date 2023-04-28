@@ -1,6 +1,6 @@
 import tkinter
 import random as r
-canvas= tkinter.Canvas(width=600,height=600)
+canvas = tkinter.Canvas(width=600,height=600)
 canvas.pack()
 
 
