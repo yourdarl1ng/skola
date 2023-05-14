@@ -10,6 +10,7 @@ blok1 = {"x":range(0, 200), "y":range(0,200)}
 blok2 = {"x":range(200, 400), "y":range(0,200)}
 blok3 = {"x":range(0, 200), "y":range(200,400)}
 blok4 = {"x":range(200, 400), "y":range(200,400)}
+
 def ciara1(suradnice):
     farba=random.choice(farby)
     owo=False
