@@ -5,7 +5,7 @@ import tkinter
 import random as r
 
 
-#deklaracia(vytvorenie) premennej canvas, canvas drzi triedu Canvas() a jej funkcie
+#deklaracia(vytvorenie) premennej canvas, canvas drzi triedu tkinter.Canvas() a jej funkcie
 #syntax vytvorenia premennej je [meno_premennej = <hodnota>]
 
 canvas = tkinter.Canvas()
