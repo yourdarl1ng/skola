@@ -44,7 +44,7 @@ for i in range(10000):
     #do zatvoriek mozme vkladat argumenty, napriklad pozdrav("Andrej") <- funkcia by pozdravila osobu s menom Andrej.
     #priklad funkcie pozdrav je na konci
     ciara()
-
+#kreslenie okna tkinter
 canvas.pack()
 #priklad funkcie pozdrav
 #funkcia pyta argument meno, bez neho by nesla. argumenty mozeme specifikovat pri definicii funkcie
