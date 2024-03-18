@@ -21,3 +21,6 @@ print("andrejka"[-3:-6:-1])
 krabica = "andrejka"
 for i in range(len(krabica)):
     print(krabica[i], i)
+
+f = "kolaje"
+print(f[1:3]+f[::1])
