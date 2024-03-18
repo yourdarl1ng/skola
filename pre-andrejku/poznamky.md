@@ -59,6 +59,10 @@ Priklad pouzitia
 
 `for i in range(len(string)):`
 
-`    print(string[i])`
+`    print(string[i], i)`
 
-vypise postupne pod seba pismenka(vybera ich podla indexu od 0 az po koniec retazca)
+vypise postupne pod seba pismenka(vybera ich podla indexu od 0 az po koniec retazca) A vedla neho napise jeho index.
+
+
+
+
