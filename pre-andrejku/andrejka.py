@@ -16,3 +16,8 @@ print(r[0:2]+r[3:5])
 print("ANDREJ"[:1:2])
 # vypise jer, pretoze -1 to otoci
 print("andrejka"[-3:-6:-1])
+
+
+krabica = "andrejka"
+for i in range(len(krabica)):
+    print(krabica[i], i)
