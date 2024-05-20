@@ -8,15 +8,15 @@ ako_dlhe = input("ako dlhe ces hesla: \n")
 def heslo_gen(dlzka):
 	# Tu sa vytvori premenna vystup
 	# Je v nej prazdny retazec pretoze tam budeme ukladat znaky
-	vystup = ""
+    vystup = ""
 	# Pustime cyklus tolko krat kolko chceme znakov
-	for i in range(int(dlzka)):
-		# Pripiseme nahodne velke alebo male pismeno
-		# Generuje sa vzdy 2, napr a K. potom sa vyberie 1 z nich ktore sa zapise
-		vystup+=random.choice([chr(random.randint(65, 90)), chr(random.randint(97, 122))])
+    for i in range(int(dlzka)):
+	# Pripiseme nahodne velke alebo male pismeno
+	# Generuje sa vzdy 2, napr a K. potom sa vyberie 1 z nich ktore sa zapise
+	vystup+=random.choice([chr(random.randint(65, 90)), chr(random.randint(97, 122))])
 	# Po skonceni cyklu sa hodi heslo ako navratova hodnota funkcie
-	return vystup
+    return vystup
 # Pustame cyklus tolko krat kolko hesiel treba
 for i in range(int(zadana_hodnota)):
-	# Vypisujeme vysledky funkcie heslo_gen s dosadenim argumentu ako dlhe chceme heslo
-	print(heslo_gen(ako_dlhe))
+# Vypisujeme vysledky funkcie heslo_gen s dosadenim argumentu ako dlhe chceme heslo
+    print(heslo_gen(ako_dlhe))
