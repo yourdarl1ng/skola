@@ -1,1 +1,1 @@
-[![forthebadge](m-seminar/milujem-ciciky.svg)](https://minexware.cc)
+[![forthebadge](m-seminar/milujem-ciciky.svg)](pre-andrejku/poznamky.md)
